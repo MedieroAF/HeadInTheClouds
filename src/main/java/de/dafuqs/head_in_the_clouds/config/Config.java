@@ -14,7 +14,7 @@ public class Config implements ConfigData {
 	@Override
 	public void validatePostLoad() {
 		if(ServerWorldCloudHeights.isEmpty()) {
-			ServerWorldCloudHeights.put("minecraft:overworld", 182.0F);
+			ServerWorldCloudHeights.put("minecraft:overworld", 191.0F);
 		}
 	}
 
